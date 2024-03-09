@@ -4,6 +4,7 @@ Discord Bot with Pterodactyl Integration
 
 
 Features:
+
 -DDoS Status Monitoring: Periodically checks the server's DDoS status and provides real-time updates.
 
 -Pterodactyl Integration: Allows you to send power commands to the Pterodactyl panel directly from Discord.
@@ -13,6 +14,7 @@ Features:
 
 
 Usage:
+
 1 -Set up your Discord bot token, Pterodactyl API details, and Discord channel ID for alerts.
 
 2 -Customize the DDoS status checking logic in the update_ddos_status function.
