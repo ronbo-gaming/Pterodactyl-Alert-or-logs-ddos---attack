@@ -1,15 +1,17 @@
-# Python Discord Bot
+Discord Bot with Pterodactyl Integration
+-This Discord bot, developed using the discord.py library, provides seamless integration with the Pterodactyl game server control panel. It monitors and reports the DDoS status of your server, allowing you to stay informed about potential attacks.
 
-This is a starting point for making your own Discord bot using Python and the [discordpy](https://discordpy.readthedocs.io/) library.
-Read [their getting-started guides](https://discordpy.readthedocs.io/en/stable/#getting-started) to get the most out of this template.
 
-## Getting Started
+Features:
+-DDoS Status Monitoring: Periodically checks the server's DDoS status and provides real-time updates.
+-Pterodactyl Integration: Allows you to send power commands to the Pterodactyl panel directly from Discord.
+-Customizable Alerts: Receive alerts in a specified Discord channel when DDoS activity is detected.
 
-To get set up, you'll need to follow [these bot account setup instructions](https://discordpy.readthedocs.io/en/stable/discord.html),
-and then copy the token for your bot and added it as a secret with the key of `TOKEN` in the "Secrets (Environment variables)" panel.
 
-## FAQ
 
-If you get the following error message while trying to start the server: `429 Too Many Requests` (accompanied by a lot of HTML code), 
-try the advice given in this Stackoverflow question:
-https://stackoverflow.com/questions/66724687/in-discord-py-how-to-solve-the-error-for-toomanyrequests
+Usage:
+1 -Set up your Discord bot token, Pterodactyl API details, and Discord channel ID for alerts.
+2 -Customize the DDoS status checking logic in the update_ddos_status function.
+3 -Use the /ddosstatus command to check the current DDoS status.
+4 -Customize and extend the bot's functionality to suit your specific needs.
+5 -Feel free to contribute, report issues, or suggest improvements. Happy coding!
